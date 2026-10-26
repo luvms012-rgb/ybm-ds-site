@@ -5,7 +5,7 @@
 - 함께 읽을 문서: [REFERENCE-ANALYSIS.md](REFERENCE-ANALYSIS.md) (Astryx·SEED 분석)
 
 **확정 사항**
-- IA: **Docs · Components · Templates**
+- IA: **Docs · Foundations · Components · Templates** (2026-10-26 Foundations를 상단 메뉴로 분리 — 아래 URL·사이드바도 이에 맞춤)
 - 화면 구성은 Astryx, 컴포넌트 문서 깊이는 SEED
 - Getting Started는 **Quick Start with AI**로 시작
 - 만드는 방식: **정적 HTML + GitHub Pages**. 빌드 스크립트가 ybm-ds 데이터(components.json, 토큰)를 읽어 페이지를 생성한다.
@@ -87,7 +87,7 @@ ybm-ds-site/
 /docs/getting-started/              시작하기 (Quick Start with AI)
 /docs/whats-new/                    새 소식
 /docs/guide/<slug>/                 가이드
-/docs/foundations/<slug>/           Foundations
+/foundations/<slug>/                Foundations
 /components/                        컴포넌트 개요
 /components/<slug>/                 상세  (?tab=properties | accessibility)
 /templates/                         템플릿 (?filter=<카테고리>, ?preview=<slug>)
@@ -105,7 +105,7 @@ ybm-ds-site/
 
 - **상단 바** (고정, 반투명에 블러)
   - 왼쪽: `YBM DS` 로고
-  - 가운데: Docs · Components · Templates
+  - 가운데: Docs · Foundations · Components · Templates
   - 오른쪽: 검색(⌘K / Ctrl+K), Light/Dark, Figma, GitHub, `시작하기` 버튼(`ds-btn` neutralSolid small)
 - **왼쪽 사이드바** 260px: 그룹 제목과 접기, 현재 페이지 강조
 - **본문** 최대 800px. **오른쪽 목차** 232px, Docs에만 둔다.
@@ -131,7 +131,6 @@ ybm-ds-site/
 |---|---|
 | 시작하기 | Getting Started, 새 소식 |
 | 가이드 | 사용법, Cascade Layers, 커스터마이즈(`--ds-*`), 테마와 Shape, JS 기능, Figma 동기화, 기여하기 |
-| Foundations | All Tokens, Color, Typography, Spacing, Radius·Shape, Elevation, Icons |
 | 리소스 | Figma, GitHub, llms.txt |
 
 **Getting Started 페이지 순서**
@@ -145,7 +144,7 @@ ybm-ds-site/
 3. **직접 설치**: `<link>`·`<script>` 복사, `data-theme`·`data-shape`, 첫 컴포넌트 예시
 4. **다음 단계** 카드: Foundations, Components, Templates
 
-**Foundations (빌드 때 토큰에서 자동 생성)**
+**Foundations (상단 메뉴 · 자체 사이드바 · 빌드 때 토큰에서 자동 생성)** — 원본은 공식 Figma Foundations 페이지(CLAUDE.md 참고)
 
 | 페이지 | 내용 |
 |---|---|
