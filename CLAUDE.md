@@ -1,5 +1,7 @@
 # YBM DS 사이트
 
+> **2026-10-30부터 사이트는 yds 저장소 안 `site/` 폴더로 옮겼다** (<https://github.com/luvms012-rgb/yds>, 주소 <https://luvms012-rgb.github.io/yds/site/>). 이 저장소는 초기 구상 기록만 남긴다. 작업 기준과 인수인계는 yds 의 `CLAUDE.md` 를 본다.
+
 YBM 디자인 시스템 공식 문서 사이트를 준비하는 저장소다.
 
 ## 현재 상태
